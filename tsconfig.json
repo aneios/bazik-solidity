@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		"declaration": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"noImplicitAny": true,
+		"outDir": "dist",
+		"strict": true,
+		"target": "ESNext"
+	},
+	"include": [
+		"./hardhat.config.ts",
+		"./coverage",
+		"./deploy",
+		"./scripts",
+		"./tests",
+		"./typechain-types",
+		"./utils"
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"arrowParens": "always",
+	"bracketSameLine": true,
+	"bracketSpacing": false,
+	"endOfLine": "lf",
+	"htmlWhitespaceSensitivity": "ignore",
+	"jsxSingleQuote": false,
+	"overrides": [
+		{
+			"files": "*.sol",
+			"options": {
+				"compiler": "0.8.9",
+				"explicitTypes": "always",
+				"printWidth": 128
+			}
+		}
+	],
+	"printWidth": 99,
+	"proseWrap": "preserve",
+	"quoteProps": "as-needed",
+	"semi": true,
+	"singleQuote": false,
+	"tabWidth": 3,
+	"trailingComma": "none",
+	"useTabs": true
+}

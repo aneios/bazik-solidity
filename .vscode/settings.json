@@ -1,0 +1,36 @@
+{
+	"mochaExplorer.exit": true,
+	"mochaExplorer.files": "test/**/*.{j,t}s",
+	"mochaExplorer.fullTrace": true,
+	"solidity.defaultCompiler": "remote",
+	"solidity.enabledAsYouTypeCompilationErrorCheck": true,
+	"solidity.formatter": "prettier",
+	"solidity.linter": "solhint",
+	"solidity.packageDefaultDependenciesContractsDirectory": "",
+	"solidity.packageDefaultDependenciesDirectory": "node_modules",
+	"solidity.solhintRules": {
+		"avoid-sha3": "warn",
+		"avoid-suicide": "error",
+		"code-complexity": ["error", 8],
+		"compiler-version": "off",
+		"const-name-snakecase": "warn",
+		"constructor-syntax": "error",
+		"func-name-mixedcase": "off",
+		"func-visibility": [
+			"error",
+			{
+				"ignoreConstructors": true
+			}
+		],
+		"max-line-length": ["warn", 128],
+		"max-states-count": ["error", 16],
+		"not-rely-on-time": "off",
+		"reason-string": [
+			"warn",
+			{
+				"maxLength": 64
+			}
+		]
+	},
+	"solidity.validationDelay": 1800
+}
